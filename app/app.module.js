@@ -1,5 +1,5 @@
 var name="app";
-requires=["app.shell","app.search","app.weather","app.forecast","app.data"];
+requires=["app.shell","app.search","app.weather","app.forecast","app.data","app.component"];
 angular.module(name,requires)
 
 
