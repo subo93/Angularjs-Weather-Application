@@ -4,5 +4,11 @@ requires=["ngRoute"];
 angular.module(name,requires)
 .config(function ($routeProvider) {
     $routeProvider
-        .when()
+        .when("/search",{
+            templateUrl:"app/search/search.html",
+            controller:"Search"
+        })
+        .otherwise({
+            redirectTo:"/search"
+        })
 })
